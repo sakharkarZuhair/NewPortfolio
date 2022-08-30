@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.navContainer {
+  /* background-color: black; */
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 1px 1px 10px 1px rgb(241, 241, 241); */
+  /* margin: 0; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0vh 4vh;
+}
+
+.navLogo {
+  cursor: pointer;
+}
+.navLogo > h2 {
+  /* width: 100%; */
+  /* object-fit: cover; */
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+  color: #000;
+}
+
+.navTabLink > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DotGothic16", sans-serif;
+}
+.navTabLink > ul > li {
+  list-style: none;
+  margin-right: 2vh;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,119 @@
+.homeBigContainer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  height: 100vh;
+}
+
+.homeContainer {
+  width: 90%;
+}
+
+.homeIntroduction {
+  margin-left: 5vh;
+}
+
+.homeHtmlTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-bottom: 2vh;
+  margin-top: 4vh;
+}
+
+.homeBodyTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-bottom: 2vh;
+}
+
+.homeSpanTagOne {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 20vh;
+  margin-bottom: -2vh;
+}
+
+.homeMyName {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.homeMyName > h1 {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 3vh;
+  /* margin-bottom: -3vh; */
+}
+
+.homeMyName > p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 3vh;
+  margin-left: 2vh;
+}
+
+.homeH1Tag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-bottom: -1.4vh;
+  margin-top: -1vh;
+  /* margin-left: -2vh; */
+}
+
+.homeZuhair {
+  display: flex;
+}
+
+.homeZuhair > h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3vh;
+  color: #000;
+}
+
+.homeZuhair > p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 4.2vh;
+  margin-left: 1vh;
+}
+
+.homeSpanTagTwo {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: -1.5vh;
+  margin-bottom: -1.8vh;
+}
+
+.homeBuildThing {
+  display: flex;
+  align-items: center;
+}
+
+.homeBuildThing > h3 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3vh;
+  color: #4e4c4c;
+}
+
+.homeBuildThing > p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 2.5vh;
+}
+
+.homeH1TagTwo {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: -2vh;
+}
