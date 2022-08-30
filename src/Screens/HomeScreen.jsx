@@ -27,6 +27,8 @@ const HomeScreen = () => {
             <p>{"<span/>"}</p>
           </div>
           <p className="homeH1TagTwo">{"<h1/>"}</p>
+
+          <span className="homeMark">WEB</span>
         </div>
       </div>
     </div>

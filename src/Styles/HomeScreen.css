@@ -119,3 +119,17 @@
   color: #dfdfdf;
   margin-top: -2vh;
 }
+
+.homeMark {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* margin-top: 20vh; */
+  font-size: 30vh;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+  color: #dfdfdf;
+  margin-right: 15vh;
+  /* margin-top: -10vh; */
+}

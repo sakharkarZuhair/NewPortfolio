@@ -28,4 +28,10 @@
   margin-bottom: 0.5vh;
   color: #4e4c4c;
   cursor: "pointer";
+  transition: all 0.2s ease-in-out;
+}
+
+.mediaSingleIcon:hover {
+  /* transition: 2s; */
+  transform: translateY(-2px);
 }

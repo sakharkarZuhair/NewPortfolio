@@ -19,7 +19,6 @@ const SocialMedia = () => {
         </div>
         <div className="mediaVerticalLine">{/* <hr /> */}</div>
       </div>
-      <div className="mediaMail"></div>
     </div>
   );
 };

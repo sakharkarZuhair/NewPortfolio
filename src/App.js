@@ -1,8 +1,8 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import SocialMedia from "./Components/SocialMedia";
 import HomeScreen from "./Screens/HomeScreen";
+// import Mail from "./Components/Mail";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
       <Navbar />
       <HomeScreen />
       <SocialMedia />
+      {/* <Mail /> */}
     </>
   );
 };
