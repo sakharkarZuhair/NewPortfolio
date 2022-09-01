@@ -1,0 +1,111 @@
+.aboutBigContainer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  height: 100vh;
+  position: relative;
+  background-color: #f4f4f2;
+}
+
+.aboutContainer {
+  width: 90%;
+}
+
+.aboutSectionTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 12vh;
+}
+
+.aboutFirstH2Tag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 15vh;
+  margin-left: 1vh;
+}
+
+.aboutMyself {
+  display: flex;
+  align-items: center;
+  margin-top: -3vh;
+  margin-left: 5vh;
+}
+
+.aboutMyself > h1 {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+.aboutLineDiv {
+  width: 30vh;
+  height: 2px;
+  background-color: black;
+  margin-left: 2vh;
+}
+
+.aboutSecondH2tag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: -1.3vh;
+  margin-left: 1vh;
+}
+
+.aboutFirstPTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+
+.aboutIntro {
+  width: 700px;
+  /* display: flex;
+  align-items: center; */
+
+  font-family: "Press Start 2P", cursive;
+  color: #4e4c4c;
+  font-size: 1.5vh;
+  line-height: 3vh;
+  margin-top: -0.5vh;
+  margin-left: 5vh;
+}
+
+.aboutSecondPTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: -1vh;
+  margin-left: 1vh;
+}
+
+.aboutMark {
+  font-size: 25vh;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive;
+  /* display: flex; */
+  position: absolute;
+  margin: 0;
+  /* margin-left: 10vh; */
+  /* margin-top: 10vh; */
+  color: #dfdfdf;
+
+  right: 0;
+  /* left: 0; */
+  bottom: 0;
+  margin-right: 35vh;
+  /* top: 0; */
+  /* z-index: -1; */
+}
+
+.aboutSecondSectionTag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 30vh;
+}

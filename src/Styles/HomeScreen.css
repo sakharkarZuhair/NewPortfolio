@@ -131,5 +131,6 @@
   font-family: "Press Start 2P", cursive;
   color: #dfdfdf;
   margin-right: 15vh;
+  z-index: -1;
   /* margin-top: -10vh; */
 }
