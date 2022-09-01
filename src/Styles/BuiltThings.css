@@ -1,0 +1,72 @@
+.builtBigContainer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  height: 100vh;
+  position: relative;
+  background-color: #fff;
+}
+
+.builtContainer {
+  width: 90%;
+}
+
+.builtFirstDiv {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-top: 10vh;
+}
+
+.builtProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.builtFirstH3Tag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-right: 70vh;
+  margin-top: 10vh;
+  margin-bottom: -2.5vh;
+}
+
+.builtThings {
+  display: flex;
+  align-items: center;
+}
+
+.builtThings > h2 {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+.builtLine {
+  width: 30vh;
+  height: 2px;
+  background-color: black;
+  margin-left: 2vh;
+}
+
+.builtSecondH3Tag {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-right: 70vh;
+  margin-top: -2vh;
+}
+
+.builtMark {
+  font-family: "Press Start 2P", cursive;
+  font-size: 25vh;
+  color: #dfdfdf;
+  position: absolute;
+  bottom: 0;
+  /* z-index: -1; */
+  right: 0;
+}

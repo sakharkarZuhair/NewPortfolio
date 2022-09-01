@@ -1,0 +1,86 @@
+.ecommerceContainer {
+  display: flex;
+  position: relative;
+  /* border: 1px solid black; */
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  margin-top: 8vh;
+}
+
+.ecommerceImage {
+  /* height: 40vh; */
+  width: 60vh;
+  position: relative;
+}
+
+.ecommerceImage > img {
+  width: 100%;
+  object-fit: contain;
+  /* z-index: 2; */
+  /* z-index: 1; */
+}
+
+.ecommerceDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ecommerceDesc > p {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vh;
+  margin-bottom: -1vh;
+}
+.ecommerceDesc > h4 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5vh;
+  color: #4e4c4c;
+}
+
+.ecommerceCardDesc {
+  /* border: 1px solid rebeccapurple; */
+  box-shadow: 4px 2px 5px 1px rgb(192, 192, 192);
+  background-color: #fff;
+  width: 600px;
+  height: 12vh;
+  padding: 2.5vh;
+  position: absolute;
+  right: 0;
+  margin-top: 9vh;
+  display: flex;
+  align-items: center;
+}
+
+.ecommerceEmptySpace {
+  /* width: 550px; */
+  height: 150px;
+}
+
+.ecommerceCardDesc > p {
+  text-align: end;
+  font-family: "DotGothic16", sans-serif;
+}
+
+.ecommerceLanguage {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  margin-top: 5.5vh;
+  margin-left: 2vh;
+  color: #4e4c4c;
+  /* width: 30vh; */
+  /* padding: 0vh 2vh; */
+}
+
+.ecommerceIconContainer {
+  display: flex;
+  color: #4e4c4c;
+}
+
+.ecommerceIcon {
+  width: 3vh;
+  height: 3vh;
+  cursor: pointer;
+  margin-left: 1vh;
+}
