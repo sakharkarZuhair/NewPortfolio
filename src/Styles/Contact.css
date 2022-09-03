@@ -1,0 +1,57 @@
+.contactBigContainer {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  position: relative;
+}
+
+.contactContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 12vh;
+  /* line-height: 2vh; */
+}
+
+.contactHeading {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+.contactSecondHeading {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3vh;
+  color: #4e4c4c;
+  margin-top: 1vh;
+}
+
+.contactDesc {
+  font-family: "DotGothic16", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* align-items: center; */
+  text-align: center;
+  width: 65vh;
+  font-size: 1.8vh;
+  margin-top: 1vh;
+}
+
+.contactButton {
+  font-family: "Press Start 2P", cursive;
+  background-color: white;
+  border: 1px solid #4e4c4c;
+  font-size: 1vh;
+  padding: 2vh;
+  border-radius: 3px;
+  color: #4e4c4c;
+  margin-top: 5vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.contactButton:hover {
+  background-color: #dfdfdf;
+}

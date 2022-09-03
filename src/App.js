@@ -5,6 +5,8 @@ import HomeScreen from "./Screens/HomeScreen";
 import AboutScreen from "./Screens/AboutScreen";
 import BuiltThings from "./Screens/BuiltThings";
 import Noteworthy from "./Screens/Noteworthy";
+import ContactMe from "./Screens/ContactMe";
+import Footer from "./Components/Footer";
 // import Mail from "./Components/Mail";
 
 const App = () => {
@@ -13,9 +15,11 @@ const App = () => {
       <Navbar />
       <HomeScreen />
       <AboutScreen />
-      <SocialMedia />
       <BuiltThings />
       <Noteworthy />
+      <ContactMe />
+      <Footer />
+      <SocialMedia />
       {/* <Mail /> */}
     </>
   );
