@@ -1,0 +1,102 @@
+.noteworthyBigContainer {
+  height: 100vh;
+  position: relative;
+  background-color: #f4f4f2;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.noteworthyContainer {
+  width: 90%;
+  margin-top: 12vh;
+}
+
+.noteworthyHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noteworthyFirstH2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-right: 42vh;
+}
+
+.noteworthyHeading {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 3vh;
+  margin-top: -1vh;
+}
+
+.noteworthySecondtH2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1vh;
+  color: #dfdfdf;
+  margin-right: 42vh;
+  margin-top: -2vh;
+}
+
+.noteworthyCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  /* width: 90%; */
+  /* width: 50vh; */
+}
+
+.noteworthyCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #fff;
+  width: 36vh;
+  margin-right: 3vh;
+  margin-bottom: 3vh;
+  /* height: 38vh; */
+  /* margin: 0; */
+  /* width: 100px; */
+}
+
+.noteworthyIconLink {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* margin: 2vh; */
+}
+
+.noteworthyIcon {
+  height: 4vh;
+  width: 4vh;
+  /* margin-right: ; */
+  margin: 2vh 2vh;
+  color: #4e4c4c;
+  cursor: pointer;
+}
+
+.noteworthyCardHeading {
+  font-family: "Press Start 2P", cursive;
+  color: #4e4c4c;
+  font-size: 1.5vh;
+}
+
+.noteworthyDesc {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.noteworthyLanguage {
+  font-family: "Press Start 2P", cursive;
+  color: #4e4c4c;
+  font-size: 1vh;
+  text-align: center;
+  margin-bottom: 6vh;
+}
