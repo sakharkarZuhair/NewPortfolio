@@ -149,4 +149,7 @@
   .ecommerceLanguage {
     line-height: 20px;
   }
+  .ecommerceCardDesc {
+    width: 310px;
+  }
 }
