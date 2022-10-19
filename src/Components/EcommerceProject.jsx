@@ -1,15 +1,26 @@
-import React from "react";
 import "../Styles/EcommerceProject.css";
+import React from "react";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import { useInView } from "react-intersection-observer";
 
 const EcommerceProject = () => {
+  const { ref: cardImage, inView: cardImageIsVisible } = useInView();
+  const { ref: cardDesc, inView: cardDescIsVisible } = useInView();
   return (
     <div className="ecommerceBigContainer">
       <div className="ecommerceContainer">
-        <div className="ecommerceImage">
+        <div
+          ref={cardImage}
+          className={`ecommerceImage ${
+            cardImageIsVisible ? "image-animate" : ""
+          }`}
+        >
           <img src="/ecommerceProject.jpg" alt="" />
         </div>
-        <div className="ecommerceDesc">
+        <div
+          ref={cardDesc}
+          className={`ecommerceDesc ${cardDescIsVisible ? "desc-animate" : ""}`}
+        >
           <p>Featured Project</p>
           <h4>E-Commerce Website</h4>
           <div className="ecommerceCardDesc">

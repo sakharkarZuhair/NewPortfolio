@@ -1,4 +1,3 @@
-import React from "react";
 import "../Styles/HomeScreen.css";
 
 const HomeScreen = () => {
@@ -18,7 +17,10 @@ const HomeScreen = () => {
           </div>
           <p className="homeH1Tag">{"<h1>"}</p>
           <div className="homeZuhair">
-            <h2>Zuhair Sakharkar.</h2>
+            {" "}
+            {/* Content */}
+            <h2 data-text="Zuhair Sakharkar.">Zuhair Sakharkar.</h2>{" "}
+            {/* Text */}
             <p>{"<br/>"}</p>
           </div>
           <p className="homeSpanTagTwo">{"<span>"}</p>

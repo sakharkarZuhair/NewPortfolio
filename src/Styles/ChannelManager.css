@@ -82,3 +82,60 @@
   cursor: pointer;
   margin-left: 1vh;
 }
+.Cimage-animate {
+  animation-duration: 1s;
+  animation-name: Cname-image;
+}
+
+@keyframes Cname-image {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.Cdesc-animate {
+  animation-duration: 1s;
+  animation-name: Cname-desc;
+}
+
+@keyframes Cname-desc {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .channelContainer {
+    flex-direction: column-reverse;
+  }
+  .channelDesc {
+    align-items: center;
+  }
+  .channelCardDesc {
+    width: 95%;
+    height: 120px;
+  }
+  .channelCardDesc > p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .channelCardDesc {
+    width: 93%;
+    height: 120px;
+  }
+  .channelCardDesc > p {
+    text-align: center;
+  }
+  .channelImage {
+    width: 40vh;
+  }
+}

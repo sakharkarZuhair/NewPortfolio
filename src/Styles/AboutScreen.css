@@ -34,6 +34,44 @@
   margin-left: 5vh;
 }
 
+.animate {
+  animation-duration: 1s;
+  animation-name: name-animate;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-animate {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/* @keyframes name-animate {
+  0% {
+    transform: scale(-1) rotate(0);
+  }
+  5% {
+    transform: scale(-1.5) rotate(0);
+  }
+  10% {
+    transform: scale(-1.75) rotate(0);
+  }
+  15% {
+    transform: scale(-2) rotate(0);
+  }
+  20% {
+    transform: scale(-3) rotate(0);
+  }
+  100% {
+    transform: scale(0) translate3D(-10vw, -10vw) rotate(0);
+  }
+} */
+
 .aboutMyself > h1 {
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
@@ -65,9 +103,6 @@
 
 .aboutIntro {
   width: 700px;
-  /* display: flex;
-  align-items: center; */
-
   font-family: "Press Start 2P", cursive;
   color: #4e4c4c;
   font-size: 1.5vh;
@@ -88,19 +123,28 @@
   font-size: 25vh;
   font-weight: bold;
   font-family: "Press Start 2P", cursive;
-  /* display: flex; */
   position: absolute;
   margin: 0;
-  /* margin-left: 10vh; */
-  /* margin-top: 10vh; */
   color: #dfdfdf;
-
   right: 0;
-  /* left: 0; */
   bottom: 0;
   margin-right: 35vh;
-  /* top: 0; */
-  /* z-index: -1; */
+}
+.animate-about {
+  animation-duration: 0.5s;
+  animation-name: name-about;
+  /* opacity: 0; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-about {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(0px);
+    /* opacity: 1; */
+  }
 }
 
 .aboutSecondSectionTag {
@@ -108,4 +152,20 @@
   font-size: 1vh;
   color: #dfdfdf;
   margin-top: 30vh;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutMark {
+    font-size: 20vh;
+    margin-right: 5vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .aboutMark {
+    font-size: 10vh;
+    margin-right: 0vh;
+  }
+  .aboutLineDiv {
+    display: none;
+  }
 }

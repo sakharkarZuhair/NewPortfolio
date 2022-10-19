@@ -14,6 +14,39 @@
   position: relative;
 }
 
+.image-animate {
+  animation-duration: 1s;
+  animation-name: name-image;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-image {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.desc-animate {
+  animation-duration: 1s;
+  animation-name: name-desc;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-desc {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
 .ecommerceImage > img {
   width: 100%;
   object-fit: contain;
@@ -83,4 +116,38 @@
   height: 3vh;
   cursor: pointer;
   margin-left: 1vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .ecommerceContainer {
+    flex-direction: column;
+  }
+  .ecommerceDesc {
+    align-items: center;
+  }
+  .ecommerceCardDesc {
+    width: 94%;
+    height: 120px;
+  }
+  .ecommerceCardDesc > p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ecommerceImage {
+    /* height: 40vh; */
+    width: 40vh;
+  }
+  .ecommerceCardDesc {
+    width: 92%;
+    height: 120px;
+  }
+  .ecommerceCardDesc > p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ecommerceLanguage {
+    line-height: 20px;
+  }
 }

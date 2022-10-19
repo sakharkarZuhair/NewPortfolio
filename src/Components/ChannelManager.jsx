@@ -1,12 +1,18 @@
-import React from "react";
 import "../Styles/ChannelManager.css";
+import React from "react";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import { useInView } from "react-intersection-observer";
 
 const ChannelManager = () => {
+  const { ref: cardImage, inView: cardImageIsVisible } = useInView();
+  const { ref: cardDesc, inView: cardDescIsVisible } = useInView();
   return (
     <div className="channelBigContainer">
       <div className="channelContainer">
-        <div className="channelDesc">
+        <div
+          ref={cardDesc}
+          className={`channelDesc ${cardDescIsVisible ? "Cdesc-animate" : ""}`}
+        >
           <p>Featured Project</p>
           <h4>Channel Manager</h4>
           <div className="channelCardDesc">
@@ -23,7 +29,12 @@ const ChannelManager = () => {
             <AiOutlineLink className="channelIcon" />
           </div>
         </div>
-        <div className="channelImage">
+        <div
+          ref={cardImage}
+          className={`channelImage ${
+            cardImageIsVisible ? "Cimage-animate" : ""
+          }`}
+        >
           <img src="/channelManager.jpg" alt="" />
         </div>
       </div>

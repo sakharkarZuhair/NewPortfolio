@@ -7,19 +7,35 @@ import BuiltThings from "./Screens/BuiltThings";
 import Noteworthy from "./Screens/Noteworthy";
 import ContactMe from "./Screens/ContactMe";
 import Footer from "./Components/Footer";
-// import Mail from "./Components/Mail";
+import LoadingScreen from "./Components/LoadingScreen";
+import { useState, useEffect } from "react";
 
 const App = () => {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <>
-      <Navbar />
-      <HomeScreen />
-      <AboutScreen />
-      <BuiltThings />
-      <Noteworthy />
-      <ContactMe />
-      <Footer />
-      <SocialMedia />
+      {loading ? (
+        <LoadingScreen />
+      ) : (
+        <>
+          <Navbar />
+          <HomeScreen />
+          <AboutScreen />
+          <BuiltThings />
+          <Noteworthy />
+          <ContactMe />
+          <Footer />
+          <SocialMedia />
+        </>
+      )}
+      {/* <LoadingScreen /> */}
       {/* <Mail /> */}
     </>
   );

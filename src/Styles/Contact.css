@@ -1,8 +1,9 @@
 .contactBigContainer {
   display: flex;
   justify-content: center;
-  height: 70vh;
+  height: 80vh;
   position: relative;
+  /* margin-top: 20vh; */
 }
 
 .contactContainer {
@@ -54,4 +55,15 @@
 
 .contactButton:hover {
   background-color: #dfdfdf;
+}
+
+@media screen and (max-width: 710px) {
+  .contactDesc {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactSecondHeading {
+    font-size: 2.5vh;
+  }
 }

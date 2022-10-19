@@ -40,6 +40,23 @@
   align-items: center;
 }
 
+.animate {
+  animation-duration: 0.8s;
+  animation-name: name-animate;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-animate {
+  0% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .builtThings > h2 {
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
@@ -69,4 +86,10 @@
   bottom: 0;
   /* z-index: -1; */
   right: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .builtLine {
+    display: none;
+  }
 }
