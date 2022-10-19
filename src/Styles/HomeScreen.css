@@ -381,22 +381,4 @@
   .homeBigContainer {
     height: 70vh;
   }
-  .homeHtmlTag {
-    display: none;
-  }
-  .homeBodyTag {
-    display: none;
-  }
-  .homeSpanTagOne {
-    display: none;
-  }
-  .homeH1Tag {
-    display: none;
-  }
-  .homeSpanTagTwo {
-    display: none;
-  }
-  .homeH1TagTwo {
-    display: none;
-  }
 }
