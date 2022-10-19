@@ -35,8 +35,12 @@ const EcommerceProject = () => {
             reactJS redux css nodeJS expressJS mongoDB
           </h5>
           <div className="ecommerceIconContainer">
-            <AiOutlineGithub className="ecommerceIcon" />
-            <AiOutlineLink className="ecommerceIcon" />
+            <a style={{ textDecoration: "none" }}>
+              <AiOutlineGithub className="ecommerceIcon" />
+            </a>
+            <a style={{ textDecoration: "none" }}>
+              <AiOutlineLink className="ecommerceIcon" />
+            </a>
           </div>
         </div>
       </div>

@@ -6,16 +6,26 @@ import {
   AiOutlineLinkedin,
   AiOutlineGithub,
 } from "react-icons/ai";
+import { useInView } from "react-intersection-observer";
 
 const SocialMedia = () => {
+  const { ref: iconsRef, inView: iconsIsVisible } = useInView();
   return (
     <div className="mediaContainer">
-      <div className="medialinks">
+      <div ref={iconsRef} className={`medialinks`}>
         <div className="mediaIcon">
-          <AiOutlineInstagram className="mediaSingleIcon" />
-          <AiOutlineFacebook className="mediaSingleIcon" />
-          <AiOutlineLinkedin className="mediaSingleIcon" />
-          <AiOutlineGithub className="mediaSingleIcon" />
+          <a style={{ textDecoration: "none" }}>
+            <AiOutlineInstagram className="mediaSingleIcon" />
+          </a>
+          <a style={{ textDecoration: "none" }}>
+            <AiOutlineFacebook className="mediaSingleIcon" />
+          </a>
+          <a style={{ textDecoration: "none" }}>
+            <AiOutlineLinkedin className="mediaSingleIcon" />
+          </a>
+          <a style={{ textDecoration: "none" }}>
+            <AiOutlineGithub className="mediaSingleIcon" />
+          </a>
         </div>
         <div className="mediaVerticalLine">{/* <hr /> */}</div>
       </div>

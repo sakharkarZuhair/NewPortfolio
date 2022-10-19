@@ -9,6 +9,7 @@ import ContactMe from "./Screens/ContactMe";
 import Footer from "./Components/Footer";
 import LoadingScreen from "./Components/LoadingScreen";
 import { useState, useEffect } from "react";
+import AnimateCursor from "./Components/AnimatedCursor";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -21,6 +22,7 @@ const App = () => {
   }, []);
   return (
     <>
+      <AnimateCursor />
       {loading ? (
         <LoadingScreen />
       ) : (

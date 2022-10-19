@@ -25,8 +25,12 @@ const ChannelManager = () => {
           <div className="channelEmptySpace"></div>
           <h5 className="channelLanguage">nextJS css nodeJS expressJS xml</h5>
           <div className="channelIconContainer">
-            <AiOutlineGithub className="channelIcon" />
-            <AiOutlineLink className="channelIcon" />
+            <a style={{ textDecoration: "none" }}>
+              <AiOutlineGithub className="channelIcon" />
+            </a>
+            <a style={{ textDecoration: "none" }}>
+              <AiOutlineLink className="channelIcon" />
+            </a>
           </div>
         </div>
         <div

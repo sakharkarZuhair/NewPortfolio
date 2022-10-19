@@ -69,6 +69,48 @@
   /* margin-left: -2vh; */
 }
 
+.animate-hi {
+  animation-duration: 0.5s;
+  animation-name: name-animate-hi;
+}
+
+@keyframes name-animate-hi {
+  0% {
+    transform: translateY(-400px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-zuhair {
+  animation-duration: 0.5s;
+  animation-name: name-animate-zuhair;
+}
+
+@keyframes name-animate-zuhair {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.animate-build {
+  animation-duration: 0.5s;
+  animation-name: name-animate-build;
+}
+
+@keyframes name-animate-build {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .homeZuhair {
   display: flex;
 }

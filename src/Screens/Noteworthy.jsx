@@ -17,12 +17,16 @@ const Noteworthy = () => {
         <div ref={noteCard} className={`noteworthyCardContainer`}>
           <div className={`noteworthyCard`}>
             <div className="noteworthyIconLink">
-              <div>
-                <AiOutlineFile className="noteworthyIcon" />
-              </div>
-              <div>
-                <BiLinkExternal className="noteworthyIcon" />
-              </div>
+              <a style={{ textDecoration: "none" }}>
+                <div>
+                  <AiOutlineFile className="noteworthyIcon" />
+                </div>
+              </a>
+              <a style={{ textDecoration: "none" }}>
+                <div>
+                  <BiLinkExternal className="noteworthyIcon" />
+                </div>
+              </a>
             </div>
             <h3 className="noteworthyCardHeading">Time to have fun</h3>
             <h4 style={{ color: "#fff" }} className="noteworthyDesc">

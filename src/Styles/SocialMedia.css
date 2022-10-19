@@ -36,3 +36,17 @@
   /* transition: 2s; */
   transform: translateY(-2px);
 }
+
+.medialinks {
+  animation-duration: 0.5s;
+  animation-name: name-animate-icons;
+}
+
+@keyframes name-animate-icons {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
