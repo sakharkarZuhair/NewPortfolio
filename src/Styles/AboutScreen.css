@@ -176,4 +176,7 @@
   .aboutIntro {
     width: 300px;
   }
+  .aboutMyself > h1 {
+    font-size: 2.5vh;
+  }
 }
