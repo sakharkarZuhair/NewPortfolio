@@ -134,4 +134,7 @@
   .noteworthyHeading {
     text-align: center;
   }
+  .noteworthyCard {
+    margin-right: 0;
+  }
 }

@@ -109,6 +109,7 @@
   line-height: 3vh;
   margin-top: -0.5vh;
   margin-left: 5vh;
+  z-index: 5;
 }
 
 .aboutSecondPTag {
@@ -129,6 +130,7 @@
   right: 0;
   bottom: 0;
   margin-right: 35vh;
+  z-index: 1;
 }
 .animate-about {
   animation-duration: 0.5s;
@@ -159,6 +161,9 @@
     font-size: 20vh;
     margin-right: 5vh;
   }
+  .aboutIntro {
+    width: 400px;
+  }
 }
 @media screen and (max-width: 400px) {
   .aboutMark {
@@ -167,5 +172,8 @@
   }
   .aboutLineDiv {
     display: none;
+  }
+  .aboutIntro {
+    width: 300px;
   }
 }
